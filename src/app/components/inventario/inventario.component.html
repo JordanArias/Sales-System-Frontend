@@ -288,7 +288,7 @@
       <div class="modal-body">
         <form #formInsumo="ngForm" class="row g-3" (ngSubmit)="Modificar_Insumo()">
           <!-- NOMBRE -->
-          <div class="col-4 mb-1 mt-0">
+          <div class="col-4 mb-1 mt-3">
             <label class="form-label">Nombre:</label>
             <input type="text" #nombre="ngModel" [(ngModel)]="insumoForm.nombre"  [class.is-invalid]="mostrarAdvertenciasInsumo && insumoForm.nombre.length == 0" name="nombre" class="form-control" placeholder="Nombre" required>
             <div class="advertencias" *ngIf="mostrarAdvertenciasInsumo && insumoForm.nombre.length == 0">
@@ -297,7 +297,7 @@
             </div>
           </div>
           <!-- MEDIDA -->
-          <div class="col-4 mb-0 mt-0">
+          <div class="col-4 mb-2 mt-3">
             <label class="form-label">Medida:</label>
             <select class="custom-select" #medida="ngModel" [(ngModel)]="insumoForm.medida" [class.is-invalid]="mostrarAdvertenciasInsumo && medida.value == 0" name="medida" [value]="0" required>
               <option value=0>Seleccionar</option>
@@ -313,7 +313,7 @@
             </div>
           </div>
           <!-- CANTIDAD MINIMA DE INSUMO -->
-          <div class="col-4 mb-2 mt-1">
+          <div class="col-4 mb-2 mt-3">
             <label class="form-label">Stock mínimo</label>
             <input type="number" #minimo="ngModel" [(ngModel)]="insumoForm.minimo" [class.is-invalid]="mostrarAdvertenciasInsumo && insumoForm.minimo <= 0" name="minimo" class="form-control">
             <div class="advertencias" *ngIf="mostrarAdvertenciasInsumo  && insumoForm.minimo <= 0">
@@ -322,7 +322,7 @@
             </div>
           </div>
           <!-- DESCRIPCION -->
-          <div class="col-12 mb-2 mt-0">
+          <div class="col-12 mb-2 mt-3">
             <label class="form-label">Descripción:</label>
             <input type="text" #descripcion="ngModel" [(ngModel)]="insumoForm.descripcion" [class.is-invalid]="mostrarAdvertenciasInsumo && insumoForm.descripcion.length == 0" name="descripcion" class="form-control" placeholder="descripcion">
             <div class="advertencias" *ngIf="mostrarAdvertenciasInsumo  && insumoForm.descripcion.length == 0">

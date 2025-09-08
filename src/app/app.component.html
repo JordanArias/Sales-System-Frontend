@@ -87,6 +87,12 @@
           Usuarios
         </a>
       </li>
+      <li class="icon-menu d-flex" [ngClass]="{ 'active': opcionSeleccionada === 6 }">
+        <a href="" class="text-decoration-none d-block py-3" [routerLink]="Ainventario ? '/inventario' : '/'" (click)="seleccionarMenu(6)">
+          <span class="px-3"><img src="../assets/images/icons/icon-menus/insumos.png" alt=""></span>
+          Inventario
+        </a>
+      </li>
       <li class="icon-menu d-flex" [ngClass]="{ 'active': opcionSeleccionada === 2 }">
         <a href="" class="text-decoration-none d-block py-3" [routerLink]="Aproducto ? '/producto' : '/'" (click)="seleccionarMenu(2)">
           <span class="px-3"><img src="../assets/images/icons/icon-menus/productos.png" alt=""></span>
@@ -111,12 +117,7 @@
           Cocina
         </a>
       </li>
-      <li class="icon-menu d-flex" [ngClass]="{ 'active': opcionSeleccionada === 6 }">
-        <a href="" class="text-decoration-none d-block py-3" [routerLink]="Ainventario ? '/inventario' : '/'" (click)="seleccionarMenu(6)">
-          <span class="px-3"><img src="../assets/images/icons/icon-menus/insumos.png" alt=""></span>
-          Inventario
-        </a>
-      </li>
+
       <li class="icon-menu d-flex" [ngClass]="{ 'active': opcionSeleccionada === 7 }">
         <a href="" class="text-decoration-none d-block py-3" [routerLink]="Acliente ? '/cliente' : '/'" (click)="seleccionarMenu(7)">
           <span class="px-3"><img src="../assets/images/icons/icon-menus/clientes.png" alt=""></span>
