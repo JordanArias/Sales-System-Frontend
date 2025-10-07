@@ -27,23 +27,27 @@ Está construido en **Angular** y maneja toda la **interfaz de usuario**, incluy
 ---
 
 ## 🧰 Instalación y ejecución
-1. Clonar el repositorio:
+#### 1. Clonar el repositorio:
 ```bash
 git clone https://github.com/JordanArias/Sales-System-Frontend.git
 ```
-3. Entrar al directorio:
+#### 2. Entrar al directorio:
 ```bash
 cd Sales-System-Frontend
 ```
-5. Instalar dependencias:
+#### 3. Instalar dependencias:
 ```bash
 npm install
 ```
-6. Ejecutar el proyecto:
+#### 4. Ejecutar el proyecto:
 ```bash
 ng serve
 ```
-7. Abrir en el navegador:
+#### 5. Abrir en el navegador:
 ```bash
 http://localhost:4200
 ```
+## 👨‍💻 Autor
+**Fabrizio Jordan Arias Marca**  
+📧 ariasjordan943@gmail.com  
+🌐 [jordandeveloper.netlify.app](https://jordandeveloper.netlify.app)
