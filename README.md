@@ -1,38 +1,40 @@
-# 🧾 Sistema Integrado de Gestión Comercial
+# Sistema Integrado de Gestión Comercial - Frontend
 
-Aplicación web para gestionar las operaciones diarias de un negocio.  
-Incluye módulos de usuarios y roles, productos (únicos, compuestos, con categorías, opciones y complementos), ventas con registro de pedidos, caja con control en dos divisas, cocina, inventario, clientes y reportes detallados.
-
----
-
-## 🚀 Tecnologías
-- **Frontend:** Angular, Bootstrap  
-- **Backend:** Node.js, Express  
-- **Base de datos:** PostgreSQL  
+Este repositorio contiene la **parte Frontend** de la aplicación "Sistema Integrado de Gestión Comercial".  
+Está construido en **Angular** y maneja toda la **interfaz de usuario**, incluyendo menús, formularios, vistas de módulos y la interacción con los datos del Backend.
 
 ---
 
-## ⚙️ Funcionalidades principales
-- Gestión de usuarios y roles con permisos personalizados  
+## 🚀 Tecnologías utilizadas
+
+- Angular  
+- Bootstrap  
+- HTML / CSS  
+- TypeScript  
+
+---
+
+## ⚙️ Funcionalidades del Frontend
+
+- Gestión de usuarios y roles (UI y formularios)  
 - Administración de productos simples y compuestos  
-- Control de inventario y movimientos de insumos  
-- Módulo de ventas con pedidos, comandas y facturación  
-- Módulo de caja con ingresos, egresos y cierre diario  
-- Reportes de ventas, productos, costos y movimientos  
-- Manejo de precios y saldos en dos divisas (Bs y ARS)
-
----
-
-## 🖥️ Demo
-🔗 [Ver demo](https://jordandeveloper.netlify.app/sistema-de-ventas/)
+- Registro y seguimiento de ventas con selección de productos y opciones  
+- Control visual de la caja (ingresos, egresos, saldos)  
+- Cocina: visualización y organización de pedidos según estado  
+- Reportes interactivos en tiempo real  
+- Manejo de precios en dos divisas (Bs y ARS)  
 
 ---
 
 ## 🧰 Instalación y ejecución
 
-### 🔹 Frontend
-```bash
-git clone https://github.com/JordanArias/sistema-ventas-frontend.git
-cd sistema-ventas-frontend
+1. Clonar el repositorio:
+git clone https://github.com/JordanArias/Sales-System-Frontend.git
+2. Entrar al directorio:
+cd Sales-System-Frontend
+3. Instalar dependencias:
 npm install
+4. Ejecutar el proyecto:
 ng serve
+5. Abrir en el navegador:
+http://localhost:4200
