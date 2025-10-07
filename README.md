@@ -27,15 +27,18 @@ Está construido en **Angular** y maneja toda la **interfaz de usuario**, incluy
 ---
 
 ## 🧰 Instalación y ejecución
-
-1. Clonar el repositorio:
 ```bash
+1. Clonar el repositorio:
 git clone https://github.com/JordanArias/Sales-System-Frontend.git
+
 3. Entrar al directorio:
 cd Sales-System-Frontend
+
 4. Instalar dependencias:
 npm install
+
 5. Ejecutar el proyecto:
 ng serve
+
 6. Abrir en el navegador:
 http://localhost:4200
