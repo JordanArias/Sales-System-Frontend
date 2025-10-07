@@ -1,27 +1,38 @@
-# ProyectFrontend
+# 🧾 Sistema Integrado de Gestión Comercial
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.5.
+Aplicación web para gestionar las operaciones diarias de un negocio.  
+Incluye módulos de usuarios y roles, productos (únicos, compuestos, con categorías, opciones y complementos), ventas con registro de pedidos, caja con control en dos divisas, cocina, inventario, clientes y reportes detallados.
 
-## Development server
+---
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## 🚀 Tecnologías
+- **Frontend:** Angular, Bootstrap  
+- **Backend:** Node.js, Express  
+- **Base de datos:** PostgreSQL  
 
-## Code scaffolding
+---
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## ⚙️ Funcionalidades principales
+- Gestión de usuarios y roles con permisos personalizados  
+- Administración de productos simples y compuestos  
+- Control de inventario y movimientos de insumos  
+- Módulo de ventas con pedidos, comandas y facturación  
+- Módulo de caja con ingresos, egresos y cierre diario  
+- Reportes de ventas, productos, costos y movimientos  
+- Manejo de precios y saldos en dos divisas (Bs y ARS)
 
-## Build
+---
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## 🖥️ Demo
+🔗 [Ver demo](https://jordandeveloper.netlify.app/sistema-de-ventas/)
 
-## Running unit tests
+---
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## 🧰 Instalación y ejecución
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+### 🔹 Frontend
+```bash
+git clone https://github.com/JordanArias/sistema-ventas-frontend.git
+cd sistema-ventas-frontend
+npm install
+ng serve
